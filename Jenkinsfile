@@ -14,6 +14,7 @@ pipeline {
             sh 'npm build'
         }
       }
+      
 
       stage('Deploy') {
         steps {
